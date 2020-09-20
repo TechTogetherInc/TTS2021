@@ -33,17 +33,6 @@ hr.divider {
 	padding: 20px;
 }
 
-#mlh-trust-badge {
-	display:block;
-	max-width:100px;
-	min-width:60px;
-	position:absolute;
-	right:50px;
-	top:0;
-	width:10%;
-	z-index:10000;
-}
-
 /*header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
