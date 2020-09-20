@@ -1,5 +1,5 @@
 #header-title {
-	font-size: 70px;
+	font-size: 60px;
 }
 
 #logo {
@@ -24,6 +24,8 @@ hr.divider {
 
 #mc_embed_signup input.button {
 	color: #181D46 !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navy-bg{
@@ -31,7 +33,7 @@ hr.divider {
 	padding: 20px;
 }
 
-header.masthead {
+/*header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background-image: url("/img/graphic_bg-01-min.png");
@@ -40,6 +42,97 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}*/
+
+header.masthead {
+  padding-top: 7rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: url("/img/Seattle Skyline.png"), url("/img/Seattle Skyline (dark).png");
+  background-color: #FC7361 !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+}
+
+
+/*header.masthead {
+  background-image: url("/img/Vector 2.png"), url("/img/Vector 3.png");
+  background-size: 50px 50px;
+  background-repeat:no-repeat;
+  background-position: 76% 60%, 24% 15%;
+  position: relative;
+}*/
+
+#titlebox {
+	border: 5px solid white;
+	max-width: 750px;
+  	min-height: 300px; 
+    	padding: 30px 10px 0px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.blue {
+	color: #181D46;
+	font-weight: 700;
+	text-align: center;
+}
+
+.btn-1 {
+  	background-color: #ffffff;
+  	border: none;
+  	color: #FC7361;
+  	padding: 7px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border-radius: 10px;
+}
+
+.rectangle {
+  	height: 55px;
+  	width: 450px;
+  	background-color: #181D46;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	vertical-align: middle;
+	padding: 17px;
+}
+
+
+
+#clap-img {
+	max-height: 28px;
+}
+
+#sparkle-img {
+	max-height: 28px;
+}
+
+#fire-img {
+	max-height: 28px;
+}
+
+#photobooth {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+}
+
+#teampic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
 }
 
 #job-page {
@@ -52,6 +145,11 @@ header.masthead {
 
 .page-section {
 	padding: 4rem 0;
+}
+
+.page-section1 {
+	padding: 2rem 0;
+	background-color: #181D46;
 }
 
 .pink {
@@ -96,7 +194,7 @@ header.masthead {
 }
 
 #mc_embed_signup input.button {
-	width:100% !important;
+	width:30% !important;
 	background-color:#fda094;
 	color:black;
 	border-radius: 20px;
@@ -108,8 +206,10 @@ header.masthead {
 }
 
 #mc_embed_signup input.email {
-	width:100% !important;
+	width:70% !important;
 	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #mc_embed_signup input.button {
