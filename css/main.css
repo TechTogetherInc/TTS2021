@@ -105,8 +105,6 @@ header.masthead {
     	padding: 17px;
 }
 
-
-
 #clap-img {
 	max-height: 28px;
 }
@@ -123,14 +121,18 @@ header.masthead {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 	max-width: 400px;
+	height: auto;
 }
 
 #teampic {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 	max-width: 400px;
+	height: auto;
 }
 
 #job-page {
