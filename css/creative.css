@@ -9666,8 +9666,7 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 60px;
-  text-align: center;
+  font-size: 2.25rem;
 }
 
 @media (min-width: 992px) {
