@@ -94,17 +94,15 @@ header.masthead {
 	border-radius: 10px;
 }
 
-.rectangle {
-  	height: 55px;
-  	width: 450px;
-  	background-color: #181D46;
-	text-align: center;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	color: #fff;
-	vertical-align: middle;
-	padding: 17px;
+.rectangle-box {
+    	position: relative;
+    	background-color: #181D46;
+    	width: 50%;
+    	color: #fff;
+    	text-align: center;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding: 17px;
 }
 
 
