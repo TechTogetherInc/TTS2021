@@ -41,6 +41,9 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+#notified{
+	color: white;
+}
 
 #job-page {
 	background-color: rgba(128, 140, 251, 0.6);
@@ -50,6 +53,10 @@ header.masthead {
 	font-size: 26px;
 }
 
+#notified{
+	font-size: 20px;
+
+}
 .page-section {
 	padding: 4rem 0;
 }
@@ -116,6 +123,7 @@ header.masthead {
 	font-weight: 800;
 	font-size: 16px;
 }
+
 
 /*.social_media_background {
 	background-color: #FC7361;
