@@ -47,31 +47,28 @@ hr.divider {
 header.masthead {
   padding-top: 7rem;
   padding-bottom: calc(10rem - 72px);
-  background-image: url("/img/Seattle Skyline.png"), url("/img/Seattle Skyline (dark).png");
+  background-image: url("/img/Skyline (white).png"), url("/img/Skyline (dark).png");
   background-color: #FC7361 !important;
-  background-position: bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  background-size: 1300px 625px;
 }
-
-
-/*header.masthead {
-  background-image: url("/img/Vector 2.png"), url("/img/Vector 3.png");
-  background-size: 50px 50px;
-  background-repeat:no-repeat;
-  background-position: 76% 60%, 24% 15%;
-  position: relative;
-}*/
 
 #titlebox {
 	border: 5px solid white;
-	max-width: 750px;
-  	min-height: 300px; 
+	border-color: #E26554;
+	max-width: 700px;
+  	min-height: 100px; 
     	padding: 30px 10px 0px 20px;
-	margin-left: auto;
-	margin-right: auto;
 	position: relative;
+	border-radius: 15px;
+	text-align: left;
+	align-items: start;
+}
+
+.dark-line {
+  height: 30%;
 }
 
 .blue {
@@ -92,17 +89,7 @@ header.masthead {
   	margin: 4px 2px;
   	cursor: pointer;
 	border-radius: 10px;
-}
-
-.rectangle-box {
-    	position: relative;
-    	background-color: #181D46;
-    	width: 50%;
-    	color: #fff;
-    	text-align: center;
-    	margin-left: auto;
-    	margin-right: auto;
-    	padding: 17px;
+	font-family: Roboto;
 }
 
 #clap-img {
@@ -140,7 +127,8 @@ header.masthead {
 }
 
 #subheader-title {
-	font-size: 26px;
+	font-size: 20px;
+	text-align: left;
 }
 
 .page-section {
