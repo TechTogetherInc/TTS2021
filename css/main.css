@@ -246,13 +246,13 @@ header.masthead {
 
 #faqs{
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 #faqs .section-name{
-	padding-top: 20px;
-	padding-bottom: 20px;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 #faqs .container{
@@ -261,8 +261,9 @@ header.masthead {
 	column-gap: 70px;
 }
 
-#faqs .card{
-	margin-bottom: 30px !important;
+#faqs .card button{
+	position: relative;
+	top: -4px;
 }
 
 #faqs button, .card-body{
@@ -324,4 +325,60 @@ footer p{
 
 #seattle-skyline-footer{
 	width: 100%;
+}
+
+/*FAQ 2*/
+
+#faqs .section-name{
+	border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+
+	width: 10%;
+	height: 40%;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+#vert-line-below-faqs{
+	content: "";
+	display: block;
+	position: relative;
+
+	width: 0.5px;
+	height: 20px;
+
+	border-left: 4px solid #fff;
+	margin: 0 auto;
+	top: 0.1px;
+}
+
+#faqs .line{
+    display: block;
+	position: relative;
+	
+    width: 50%;
+	height: 20px;
+	
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+	margin: 0 auto;
+	
+	top: 0.001px;
+	bottom: -30px;
+}
+
+#faqs .line-between-cards{
+	content: "";
+	display: block;
+	position: relative;
+
+	width: 0.5px;
+	height: 20px;
+
+	border-left: 4px solid #fff;
+	margin: 0 auto;
+	left: -15%;
 }
