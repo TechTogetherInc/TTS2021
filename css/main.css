@@ -67,6 +67,10 @@ header.masthead {
 	align-items: start;
 }
 
+.bold {
+	font-weight: bolder;
+}
+
 .dark-line {
   height: 30%;
 }
@@ -144,6 +148,11 @@ header.masthead {
 	color:#FC7361
 }
 
+#intro-subtitle {
+	font-weight: 600;
+	font-size: 20px;
+}
+
 #pre-body-title {
 	font-size: 20px;
 }
@@ -171,6 +180,7 @@ header.masthead {
 	margin: 100px;
 	border: 20px solid #222A68;
 }
+
 
 /*.perks{
 	margin-top: 150px;
