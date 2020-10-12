@@ -1,5 +1,5 @@
 #header-title {
-	font-size: 70px;
+	font-size: 60px;
 }
 
 #logo {
@@ -24,6 +24,8 @@ hr.divider {
 
 #mc_embed_signup input.button {
 	color: #181D46 !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navy-bg{
@@ -31,7 +33,7 @@ hr.divider {
 	padding: 20px;
 }
 
-header.masthead {
+/*header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background-image: url("/img/graphic_bg-01-min.png");
@@ -40,9 +42,88 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}*/
+
+header.masthead {
+  padding-top: 7rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: url("/img/Skyline (white).png"), url("/img/Skyline (dark).png");
+  background-color: #FC7361 !important;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1300px 625px;
 }
-#notified{
-	color: white;
+
+#titlebox {
+	border: 5px solid white;
+	border-color: #E26554;
+	max-width: 700px;
+  	min-height: 100px; 
+    	padding: 30px 10px 0px 20px;
+	position: relative;
+	border-radius: 15px;
+	text-align: left;
+	align-items: start;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.dark-line {
+  height: 30%;
+}
+
+.blue {
+	color: #181D46;
+	font-weight: 700;
+	text-align: center;
+}
+
+.btn-1 {
+  	background-color: #ffffff;
+  	border: none;
+  	color: #FC7361;
+  	padding: 7px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border-radius: 10px;
+	font-family: Roboto;
+}
+
+#clap-img {
+	max-height: 28px;
+}
+
+#sparkle-img {
+	max-height: 28px;
+}
+
+#fire-img {
+	max-height: 28px;
+}
+
+#photobooth {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+#teampic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
 }
 
 #job-page {
@@ -50,19 +131,26 @@ header.masthead {
 }
 
 #subheader-title {
-	font-size: 26px;
-}
-
-#notified{
 	font-size: 20px;
-
+	text-align: left;
 }
+
 .page-section {
 	padding: 4rem 0;
 }
 
+.page-section1 {
+	padding: 2rem 0;
+	background-color: #181D46;
+}
+
 .pink {
 	color:#FC7361
+}
+
+#intro-subtitle {
+	font-weight: 600;
+	font-size: 20px;
 }
 
 #pre-body-title {
@@ -93,6 +181,7 @@ header.masthead {
 	border: 20px solid #222A68;
 }
 
+
 /*.perks{
 	margin-top: 150px;
 	margin-left: 50px;
@@ -103,7 +192,7 @@ header.masthead {
 }
 
 #mc_embed_signup input.button {
-	width:100% !important;
+	width:30% !important;
 	background-color:#fda094;
 	color:black;
 	border-radius: 20px;
@@ -115,15 +204,16 @@ header.masthead {
 }
 
 #mc_embed_signup input.email {
-	width:100% !important;
+	width:70% !important;
 	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #mc_embed_signup input.button {
 	font-weight: 800;
 	font-size: 16px;
 }
-
 
 /*.social_media_background {
 	background-color: #FC7361;
@@ -223,7 +313,7 @@ header.masthead {
 	}
 
 	h1#header-title{
-		font-size: 3rem;
+		font-size: 70px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
