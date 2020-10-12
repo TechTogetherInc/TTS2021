@@ -188,6 +188,12 @@ header.masthead {
 	padding-bottom:5px;
 }
 
+#get-involved-section a{
+	font-family: Barlow;
+	font-size: 20px;
+	font-weight: 600;
+}
+
 @media only screen and (max-width: 1000px) {
 	.video,.img-recruit {
 		display: none;
