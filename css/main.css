@@ -8,11 +8,7 @@ html,body
 }
 
 #header-title {
-<<<<<<< HEAD
 	font-size: 60px;
-=======
-	font-size: 3rem;
->>>>>>> alice/master
 }
 
 #logo {
@@ -79,7 +75,7 @@ header.masthead {
     text-align: left;
     align-items: start;
     margin-left: -514px;
-    margin-top: -182px;
+    margin-top: 20px;
     margin-left:10%;
 }
 
@@ -344,9 +340,6 @@ header.masthead {
 		margin: 0px 20px 0px 20px;
 	}
 
-<<<<<<< HEAD
-}
-=======
 	#faqs .container{
 		display: grid;
 		grid-template-columns: 1fr;
@@ -402,6 +395,10 @@ footer{
 	color: #fff;
 }
 
+footer h2{
+	font-weight: 700;
+}
+
 footer .container{
 	display: grid;
 	grid-template-columns: 70% 30%;
@@ -413,19 +410,24 @@ footer a{
 	text-decoration: underline;
 }
 
+#footer-left {
+	padding-top:30px;
+}
 #footer-social img{
-	width: 30px;
-	height: 30px;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
 }
 
 #footer-social{
 	text-align: left;
-	padding-top: 10px;
+	padding-top: 13px;
 	margin-right: 10px;
 }
 
 footer p{
 	margin-bottom: 5px;
+	font-family: Barlow;
 }
 
 #ttsbyte-img{
@@ -496,4 +498,3 @@ footer p{
 	margin: 0 auto;
 	left: -15%;
 }
->>>>>>> alice/master
