@@ -56,17 +56,18 @@ header.masthead {
 }
 
 #titlebox {
-	border: 5px solid white;
-	border-color: #E26554;
-	max-width: 700px;
-  	min-height: 100px; 
-    	padding: 30px 10px 0px 20px;
-	position: relative;
-	border-radius: 15px;
-	text-align: left;
-	align-items: start;
-	margin-left: -514px;
-	margin-top: -182px;
+    border: 5px solid white;
+    border-color: #E26554;
+    max-width: 700px;
+    min-height: 100px;
+    padding: 30px 10px 0px 20px;
+    position: relative;
+    border-radius: 15px;
+    text-align: left;
+    align-items: start;
+    margin-left: -514px;
+    margin-top: -182px;
+    margin-left:10%;
 }
 
 .bold {
