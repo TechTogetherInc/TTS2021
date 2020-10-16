@@ -74,7 +74,6 @@ header.masthead {
     border-radius: 15px;
     text-align: left;
     align-items: start;
-    margin-left: -514px;
     margin-top: 20px;
     margin-left:10%;
 }
@@ -296,6 +295,7 @@ header.masthead {
 
 
 /*FAQ*/
+/*
 #faqs, .card-header{
 	background-color: #222A68;
 }
@@ -334,7 +334,7 @@ header.masthead {
 #faqs .card{
 	background-color: #FC7361;
 }
-
+*/
 
 /*FOOTER*/
 footer{
@@ -393,7 +393,7 @@ footer p{
 }
 
 /*FAQ 2*/
-
+/*
 #faqs .section-name{
 	border-top: 4px solid #fff;
     border-right: 4px solid #fff;
@@ -458,7 +458,7 @@ footer p{
 	}
 	
 }
-
+*/
 @media only screen and (max-width: 768px) { /*When image becomes squished*/
 	#footer-right{
 		display: none;
