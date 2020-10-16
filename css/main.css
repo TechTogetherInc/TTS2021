@@ -294,57 +294,6 @@ header.masthead {
 	font-weight: 600;
 }
 
-@media only screen and (max-width: 1000px) {
-	.video,.img-recruit {
-		display: none;
-	}
-
-	.page-section {
-		padding: 3rem 0px;
-	}
-	
-}
-
-@media only screen and (max-width: 768px) { /*When image becomes squished*/
-	#footer-right{
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-    
-	.video, .img-recruit {
-		display: none;	
-	}
-
-	.page-section {
-		padding: 2rem 0px;
-	}
-
-	h1#header-title{
-		font-size: 70px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	.ytp-cued-thumbnail-overlay-image {
-		padding-top: 30px;
-		margin-top: 30px;
-	}
-
-	section#organize{
-		margin: 0px 20px 0px 20px;
-	}
-
-	section#sponsor{
-		margin: 0px 20px 0px 20px;
-	}
-
-	#faqs .container{
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-}
 
 /*FAQ*/
 #faqs, .card-header{
@@ -497,4 +446,56 @@ footer p{
 	border-left: 4px solid #fff;
 	margin: 0 auto;
 	left: -15%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.video,.img-recruit {
+		display: none;
+	}
+
+	.page-section {
+		padding: 3rem 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) { /*When image becomes squished*/
+	#footer-right{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    
+	.video, .img-recruit {
+		display: none;	
+	}
+
+	.page-section {
+		padding: 2rem 0px;
+	}
+
+	h1#header-title{
+		font-size: 70px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.ytp-cued-thumbnail-overlay-image {
+		padding-top: 30px;
+		margin-top: 30px;
+	}
+
+	section#organize{
+		margin: 0px 20px 0px 20px;
+	}
+
+	section#sponsor{
+		margin: 0px 20px 0px 20px;
+	}
+
+	#faqs .container{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
