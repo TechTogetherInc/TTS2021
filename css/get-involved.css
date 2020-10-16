@@ -1,5 +1,5 @@
 .card {
-  flex: 1 0 40%; 
+  flex: 1 0 40%;
   padding: 1.5rem;
   margin: 2rem;
   border: 3px solid #e26554;
@@ -23,19 +23,19 @@
   text-align: center;
   border-radius: 5px;
   transition: ease-in-out .3s;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
-  0 2px 2px rgba(0,0,0,0.1), 
-  0 4px 4px rgba(0,0,0,0.1), 
-  0 8px 8px rgba(0,0,0,0.1),
-  0 16px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1),
+    0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
 }
 
 .card3 .img-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    border-radius: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 .card3-overlay {
@@ -57,15 +57,17 @@
   background-color: #FC7361;
   padding: 1rem;
 }
+
 .card3-body {
   flex-grow: 1;
   padding: 1rem;
 }
+
 .card3-overlay:hover .card3-overlay {
   transform: translate3d(0, 0, 0);
 }
 
-.img-container span{
+.img-container span {
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -73,22 +75,22 @@
   width: 100px;
   height: 100px;
   transition: ease-in-out .3s;
-  background-color: #E26554; 
+  background-color: #E26554;
   transition: ease-in-out .3s;
 }
 
-.card2:hover .img-container img{
-  transition: all .15s cubic-bezier(.11,.65,1,1.69);
-  width: 50%; 
+.card2:hover .img-container img {
+  transition: all .15s cubic-bezier(.11, .65, 1, 1.69);
+  width: 50%;
 }
 
-.card2:hover{
+.card2:hover {
   transition: ease-in-out .3s;
   transform: scale(1.09);
   overflow: hidden;
 }
 
-.card2:hover .img-container span{
+.card2:hover .img-container span {
   transition: ease-in-out .3s;
   transform: scale(2.5);
   overflow: hidden;
@@ -100,7 +102,7 @@
   margin-bottom: 1rem;
 }
 
-.button { 
+.button {
   background-color: #222A68;
   border: none;
   padding: 0.8rem 1rem;
@@ -134,7 +136,8 @@
   position: relative;
   margin: 1rem 0 1.5rem 0
 }
-.get-inv-bg h1{
+
+.get-inv-bg h1 {
   color: white;
   text-align: center;
   font-weight: 600;
@@ -198,28 +201,28 @@
   -moz-box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 26%);
 }
 
-.card2-subtitle { 
+.card2-subtitle {
   color: grey;
 }
 
-.card2-contents{
+.card2-contents {
   padding: 0 1.3rem 0 1.3rem;
 }
 
 .img-container {
   display: flex;
   justify-content: center;
-  height: 300px; 
+  height: 300px;
   overflow: hidden;
   align-items: center;
   margin-bottom: 3rem;
-  transition: all .15s cubic-bezier(.11,.65,1,1.59);
+  transition: all .15s cubic-bezier(.11, .65, 1, 1.59);
 }
 
 .img-container img {
   border-radius: 50%;
   flex: none;
-  width: 72%; 
+  width: 72%;
   transition: ease-in-out .3s;
 }
 
@@ -228,7 +231,7 @@
   display: flex;
   position: relative;
   justify-content: center;
-  height: 300px; 
+  height: 300px;
   overflow: hidden;
   align-items: center;
   margin-bottom: 3rem;
@@ -239,7 +242,7 @@
   border-radius: 50%;
 }
 
-.card2-bg1 { 
+.card2-bg1 {
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -251,21 +254,69 @@
   top: -128%;
 }
 
-.card2-bg1{
+.card2-bg1 {
   transition: 1s, 1s;
 }
+
 .v1:hover .img-container1 .card2-bg1 {
   /* transform: rotate(450deg); */
   background-color: #FC7361;
   left: -40%;
-  top: -70%;   
+  top: -70%;
+}
+
+/* ========== Sponsorship ========== */
+.sponsor-img {
+  width: 100%;
+}
+
+.titlebox {
+  border: 3px solid #e26554;
+  margin: 1.25% 12.5%;
+  padding: 1.2em;
+}
+
+.linebox-container {
+  height: fit-content;
+}
+
+.linebox-container button { 
+  position: absolute;
+}
+
+.linebox { 
+  top: 20%; 
+  background-color: #FC7361; 
+  border: 3px solid #e26554;
+  position: absolute; 
+  height: 50%; 
+  width: 100%; 
+}
+
+.get-inv-bg h1 {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.contentbox.titlebox {
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  background-color: #FC7361;
+  border-top: none;
+}
+
+.contentbox p {
+  color: white;
+  padding: 0 2em;
 }
 
 
 /* Media Queries for Responsiveness */
 /* for get involved container */
-@media ( min-width: 100px) {
-  .button {
+@media (min-width: 100px) {
+  .row .button {
     flex: 1 0 50%;
     padding: 1rem;
   }
@@ -275,14 +326,14 @@
   }
 }
 
-@media ( min-width: 320px) {
+@media (min-width: 320px) {
   .sub-container {
     flex: 1;
   }
 }
 
-@media ( min-width: 520px) {
-  .button {
+@media (min-width: 520px) {
+  .row .button {
     flex: 1 0;
     padding: .6rem;
   }
