@@ -1,9 +1,22 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 #header-title {
+<<<<<<< HEAD
 	font-size: 60px;
+=======
+	font-size: 3rem;
+>>>>>>> alice/master
 }
 
 #logo {
-	width:200px;
+	width:10vw;
 }
 
 h1, h2, h3, h4 {
@@ -221,16 +234,6 @@ header.masthead {
 	background-color: #FC7361;
 }*/
 
-.social_icon {
-	height: 50px;
-	width: 50px;
-	margin: 20px;
-}
-
-.social_title {
-	font-size: 45px;
-	padding: 15px;
-}
 
 .send_email {
 	font-size: 25px;
@@ -302,6 +305,13 @@ header.masthead {
 	.page-section {
 		padding: 3rem 0px;
 	}
+	
+}
+
+@media only screen and (max-width: 768px) { /*When image becomes squished*/
+	#footer-right{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -333,4 +343,156 @@ header.masthead {
 		margin: 0px 20px 0px 20px;
 	}
 
+<<<<<<< HEAD
 }
+=======
+	#faqs .container{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
+
+/*FAQ*/
+#faqs, .card-header{
+	background-color: #222A68;
+}
+
+#faqs{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#faqs .section-name{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#faqs .container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	column-gap: 70px;
+}
+
+#faqs .card button{
+	position: relative;
+	top: -4px;
+}
+
+#faqs button, .card-body{
+	color: white;
+	text-align: left;
+}
+
+#faqs button{
+	padding: 0;
+}
+
+#faqs .card{
+	background-color: #FC7361;
+}
+
+
+/*FOOTER*/
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #FC7361;
+	color: #fff;
+}
+
+footer .container{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	column-gap: 10px;
+}
+
+footer a{
+	color: white;
+	text-decoration: underline;
+}
+
+#footer-social img{
+	width: 30px;
+	height: 30px;
+}
+
+#footer-social{
+	text-align: left;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+footer p{
+	margin-bottom: 5px;
+}
+
+#ttsbyte-img{
+	width: 100%;
+	height: 100%;
+}
+
+#footer-right{
+	text-align: right;
+}
+
+#seattle-skyline-footer{
+	width: 100%;
+}
+
+/*FAQ 2*/
+
+#faqs .section-name{
+	border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+
+	width: 10%;
+	height: 40%;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+#vert-line-below-faqs{
+	content: "";
+	display: block;
+	position: relative;
+
+	width: 0.5px;
+	height: 20px;
+
+	border-left: 4px solid #fff;
+	margin: 0 auto;
+	top: 0.1px;
+}
+
+#faqs .line{
+    display: block;
+	position: relative;
+	
+    width: 50%;
+	height: 20px;
+	
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+	margin: 0 auto;
+	
+	top: 0.001px;
+	bottom: -30px;
+}
+
+#faqs .line-between-cards{
+	content: "";
+	display: block;
+	position: relative;
+
+	width: 0.5px;
+	height: 20px;
+
+	border-left: 4px solid #fff;
+	margin: 0 auto;
+	left: -15%;
+}
+>>>>>>> alice/master
