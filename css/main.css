@@ -64,6 +64,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: 1300px 625px;
 }
+<<<<<<< HEAD
 
 
 #titlebox {
@@ -138,6 +139,8 @@ header.masthead {
 	max-width: 400px;
 	height: auto;
 }
+=======
+>>>>>>> parent of 0c47363... added get notified text
 
 #job-page {
 	background-color: rgba(128, 140, 251, 0.6);
@@ -145,6 +148,7 @@ header.masthead {
 
 #subheader-title {
 
+<<<<<<< HEAD
 	font-size: 20px;
 	text-align: left;
 
@@ -152,6 +156,8 @@ header.masthead {
 
 }
 
+=======
+>>>>>>> parent of 0c47363... added get notified text
 .page-section {
 	padding: 4rem 0;
 }
