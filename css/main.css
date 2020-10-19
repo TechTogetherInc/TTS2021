@@ -295,6 +295,10 @@ footer .container{
 	column-gap: 10px;
 }
 
+.unround-card .card-header{
+	border-radius: 0px;
+}
+
 footer a{
 	color: white;
 	text-decoration: underline;
@@ -331,22 +335,6 @@ footer p{
 /*FAQ 2*/
 
 /*
-#vert-line{
-	content: "";
-	display: block;
-	position: relative;
-
-	width: 0.5px;
-	height: 20px;
-
-	border-left: 4px solid #fff;
-	margin: 0 auto;
-	top: 0.1px;
-}*/
-
-
-
-/*
 #faqs .section-name{
 	border-top: 4px solid #fff;
     border-right: 4px solid #fff;
@@ -357,6 +345,19 @@ footer p{
 	height: 40%;
 	padding-bottom: 5px;
 	margin: 0 auto;
+}
+
+#vert-line-below-faqs{
+	content: "";
+	display: block;
+	position: relative;
+
+	width: 0.5px;
+	height: 20px;
+
+	border-left: 4px solid #fff;
+	margin: 0 auto;
+	top: 0.1px;
 }
 
 #faqs .line{
