@@ -66,6 +66,8 @@ header.masthead {
 }
 
 
+
+
 #titlebox {
     border: 5px solid white;
     border-color: #E26554;
@@ -130,6 +132,8 @@ header.masthead {
 	height: auto;
 }
 
+
+
 #teampic {
 	display: block;
 	margin-left: auto;
@@ -139,11 +143,14 @@ header.masthead {
 	height: auto;
 }
 
+
 #job-page {
 	background-color: rgba(128, 140, 251, 0.6);
 }
 
 #subheader-title {
+
+
 
 	font-size: 20px;
 	text-align: left;
@@ -151,6 +158,8 @@ header.masthead {
 	font-size: 26px;
 
 }
+
+
 
 .page-section {
 	padding: 4rem 0;
