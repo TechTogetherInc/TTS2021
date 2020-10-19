@@ -67,6 +67,7 @@ header.masthead {
 
 
 
+
 #titlebox {
     border: 5px solid white;
     border-color: #E26554;
@@ -132,6 +133,7 @@ header.masthead {
 }
 
 
+
 #teampic {
 	display: block;
 	margin-left: auto;
@@ -149,12 +151,14 @@ header.masthead {
 #subheader-title {
 
 
+
 	font-size: 20px;
 	text-align: left;
 
 	font-size: 26px;
 
 }
+
 
 
 .page-section {
