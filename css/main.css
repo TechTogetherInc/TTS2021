@@ -55,14 +55,15 @@ hr.divider {
 }*/
 
 header.masthead {
-  padding-top: 7rem;
-  padding-bottom: calc(10rem - 72px);
-  background-image: url("/img/Skyline (white).png"), url("/img/Skyline (dark).png");
-  background-color: #FC7361 !important;
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 1300px 625px;
+    padding-top: 7rem;
+    padding-bottom: calc(10rem - 72px);
+    background-image: url("/img/Skyline (white).png"), url("/img/Skyline (dark).png");
+    background-color: #FC7361 !important;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1300px 625px;
+   
 }
 
 
@@ -481,36 +482,48 @@ footer p{
 }
 
 @media only screen and (max-width: 600px) {
-    
-	.video, .img-recruit {
-		display: none;	
-	}
 
-	.page-section {
-		padding: 2rem 0px;
-	}
+    .video, .img-recruit {
+        display: none;
+    }
 
-	h1#header-title{
-		font-size: 70px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+    .page-section {
+        padding: 2rem 0px;
+    }
 
-	.ytp-cued-thumbnail-overlay-image {
-		padding-top: 30px;
-		margin-top: 30px;
-	}
+    h1#header-title {
+        font-size: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-	section#organize{
-		margin: 0px 20px 0px 20px;
-	}
+    .ytp-cued-thumbnail-overlay-image {
+        padding-top: 30px;
+        margin-top: 30px;
+    }
 
-	section#sponsor{
-		margin: 0px 20px 0px 20px;
-	}
+    section#organize {
+        margin: 0px 20px 0px 20px;
+    }
 
-	#faqs .container{
-		display: grid;
-		grid-template-columns: 1fr;
-	}
+    section#sponsor {
+        margin: 0px 20px 0px 20px;
+    }
+
+    #faqs .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #titlebox {
+        padding: 2rem 0px;
+        display: inline-block;
+        position: relative;
+        border: none;
+        width: 100%;
+    }
+
+    header.masthead {
+        background-image: none;
+    }
 }
