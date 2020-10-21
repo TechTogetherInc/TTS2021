@@ -1,15 +1,17 @@
-html,body
-{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x:hidden;
+    overflow-x: hidden;
     
+   
 }
 
+
+
 #header-title {
-	font-size: 60px;
+    font-size: 60px;
 }
 
 #logo {
@@ -81,6 +83,7 @@ header.masthead {
     align-items: start;
     margin-top: 20px;
     margin-left:10%;
+    
 }
 
 .bold {
@@ -475,10 +478,17 @@ footer p{
 	
 }
 */
+
+
+
 @media only screen and (max-width: 768px) { /*When image becomes squished*/
 	#footer-right{
 		display: none;
 	}
+    header.masthead {
+        background-image: none;
+        height: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -490,6 +500,12 @@ footer p{
     .page-section {
         padding: 2rem 0px;
     }
+    body {
+        padding-top: -300px;
+    }
+  
+
+
 
     h1#header-title {
         font-size: 70px;
@@ -515,15 +531,40 @@ footer p{
         grid-template-columns: 1fr;
     }
 
-    #titlebox {
-        padding: 2rem 0px;
+    .row1 {
+        /*padding: 2rem 0px;
         display: inline-block;
         position: relative;
         border: none;
         width: 100%;
+        position: relative;
+        margin: 1rem 0 1.5rem 0*/
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: 25px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom:3%;
+       
+    }
+   
+    .ml-form-align-center {
+        display: block;
+        width: 100%;
+        margin-left:25%;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        margin-top:8%;
+        
     }
 
-    header.masthead {
+    /*header.masthead {
         background-image: none;
-    }
+        height: 100%;
+        display: block;
+        width: 100%;
+    }*/
+    
 }
