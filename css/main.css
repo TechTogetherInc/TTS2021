@@ -8,8 +8,6 @@ html, body {
    
 }
 
-
-
 #header-title {
     font-size: 60px;
 }
@@ -43,6 +41,18 @@ hr.divider {
 	padding: 20px;
 }
 
+.background-image img{
+	opacity: 0.5;
+	width: 100%;
+}
+
+.background-orange{
+	background-color: #E26554;
+}
+
+.background-blue {
+	background-color: #222A68;
+}
 /*header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
@@ -65,8 +75,6 @@ header.masthead {
     background-size: 1300px 625px;
    
 }
-
-
 
 
 #titlebox {
