@@ -1,36 +1,39 @@
 #header-title {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 #logo {
-	width:200px;
+  width: 200px;
 }
 
-h1, h2, h3, h4 {
-	font-family: Barlow;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Barlow;
 }
 
 p {
-	font-family: Roboto;
+  font-family: Roboto;
 }
 
 hr.divider {
-	border-color:white;
+  border-color: white;
 }
 
 .font-light {
-	font-weight: 200;
+  font-weight: 200;
 }
 
 #mc_embed_signup input.button {
-	color: #181D46 !important;
-	margin-left: auto;
-	margin-right: auto;
+  color: #181d46 !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.navy-bg{
-	background-color:#181D46;
-	padding: 20px;
+.navy-bg {
+  background-color: #181d46;
+  padding: 20px;
 }
 
 /*header.masthead {
@@ -47,8 +50,9 @@ hr.divider {
 header.masthead {
   padding-top: 7rem;
   padding-bottom: calc(10rem - 72px);
-  background-image: url("/img/Skyline (white).png"), url("/img/Skyline (dark).png");
-  background-color: #FC7361 !important;
+  background-image: url("/img/Skyline (white).png"),
+    url("/img/Skyline (dark).png");
+  background-color: #fc7361 !important;
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -56,21 +60,21 @@ header.masthead {
 }
 
 #titlebox {
-	border: 5px solid white;
-	border-color: #E26554;
-	max-width: 700px;
-  	min-height: 100px; 
-    	padding: 30px 10px 0px 20px;
-	position: relative;
-	border-radius: 15px;
-	text-align: left;
-	align-items: start;
-	margin-left: -514px;
-	margin-top: -182px;
+  border: 5px solid white;
+  border-color: #e26554;
+  max-width: 700px;
+  min-height: 100px;
+  padding: 30px 10px 0px 20px;
+  position: relative;
+  border-radius: 15px;
+  text-align: left;
+  align-items: start;
+  margin-left: -514px;
+  margin-top: -182px;
 }
 
 .bold {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
 .dark-line {
@@ -78,111 +82,110 @@ header.masthead {
 }
 
 .blue {
-	color: #181D46;
-	font-weight: 700;
-	text-align: center;
+  color: #181d46;
+  font-weight: 700;
+  text-align: center;
 }
 
 .btn-1 {
-  	background-color: #ffffff;
-  	border: none;
-  	color: #FC7361;
-  	padding: 7px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-	border-radius: 10px;
-	font-family: Roboto;
+  background-color: #ffffff;
+  border: none;
+  color: #fc7361;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Roboto;
 }
 
 #clap-img {
-	max-height: 28px;
+  max-height: 28px;
 }
 
 #sparkle-img {
-	max-height: 28px;
+  max-height: 28px;
 }
 
 #fire-img {
-	max-height: 28px;
+  max-height: 28px;
 }
 
 #photobooth {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 400px;
-	height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 #teampic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 400px;
-	height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 #job-page {
-	background-color: rgba(128, 140, 251, 0.6);
+  background-color: rgba(128, 140, 251, 0.6);
 }
 
 #subheader-title {
-	font-size: 20px;
-	text-align: left;
+  font-size: 20px;
+  text-align: left;
 }
 
 .page-section {
-	padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .page-section1 {
-	padding: 2rem 0;
-	background-color: #181D46;
+  padding: 2rem 0;
+  background-color: #181d46;
 }
 
 .pink {
-	color:#FC7361
+  color: #fc7361;
 }
 
 #intro-subtitle {
-	font-weight: 600;
-	font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 #pre-body-title {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 #body-title {
-	font-size: 40px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	font-weight: 700;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: 700;
 }
 
 #body-title-2 {
-	font-size: 26px;
-	padding-top: 50px;
-	padding-bottom: 10px;
+  font-size: 26px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 #featured-hack {
-	border-radius: 50%;
-	width:500px;
+  border-radius: 50%;
+  width: 500px;
 }
 
 .img-recruit {
-	width: 100%;
-	margin: 100px;
-	border: 20px solid #222A68;
+  width: 100%;
+  margin: 100px;
+  border: 20px solid #222a68;
 }
-
 
 /*.perks{
 	margin-top: 150px;
@@ -190,31 +193,31 @@ header.masthead {
 }*/
 
 .btn-light {
-	background-color:#fda094 !important;
+  background-color: #fda094 !important;
 }
 
 #mc_embed_signup input.button {
-	width:30% !important;
-	background-color:#fda094;
-	color:black;
-	border-radius: 20px;
-	height: 40px;
+  width: 30% !important;
+  background-color: #fda094;
+  color: black;
+  border-radius: 20px;
+  height: 40px;
 }
 
 #mc_embed_signup input.button:hover {
-	background-color: #E26554;
+  background-color: #e26554;
 }
 
 #mc_embed_signup input.email {
-	width:70% !important;
-	height: 40px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 70% !important;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #mc_embed_signup input.button {
-	font-weight: 800;
-	font-size: 16px;
+  font-weight: 800;
+  font-size: 16px;
 }
 
 /*.social_media_background {
@@ -222,115 +225,115 @@ header.masthead {
 }*/
 
 .social_icon {
-	height: 50px;
-	width: 50px;
-	margin: 20px;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
 }
 
 .social_title {
-	font-size: 45px;
-	padding: 15px;
+  font-size: 45px;
+  padding: 15px;
 }
 
 .send_email {
-	font-size: 25px;
-	padding: 15px;
+  font-size: 25px;
+  padding: 15px;
 }
 
 .email_button {
-	color: #fc7361
+  color: #fc7361;
 }
 
 .email_button:hover {
-	color: #f1f1f1
+  color: #f1f1f1;
 }
 
 .sponsor-icon {
-	width: 100%;
-	margin: 20px;
+  width: 100%;
+  margin: 20px;
 }
 
 .apply_date {
-	font-size: 18px;
-	font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .collapsible {
-	background-color: #f1f1f1;
-	color: black;
-	cursor: pointer;
-	padding: 10px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 18px;
- }
- .collapsible:hover {
-	background-color: #f1f1f1;
- }
- .collapsible:after {
-	content: '\002B';
-	color: black;
-	font-weight: bold;
-	float: right;
-	margin-left: 5px;
- }
- .collapsible:clicked {
-	content: "\2212";
- }
-
-.sponsor {
-	font-size: 20px;
-	color: #f1f1f1;
-	font-family: Roboto;
-	border-bottom: 3px solid #181D46;
-	padding-bottom:5px;
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+.collapsible:hover {
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: "\002B";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible:clicked {
+  content: "\2212";
 }
 
-#get-involved-section a{
-	font-family: Barlow;
-	font-size: 20px;
-	font-weight: 600;
+.sponsor {
+  font-size: 20px;
+  color: #f1f1f1;
+  font-family: Roboto;
+  border-bottom: 3px solid #181d46;
+  padding-bottom: 5px;
+}
+
+.button a {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1000px) {
-	.video,.img-recruit {
-		display: none;
-	}
+  .video,
+  .img-recruit {
+    display: none;
+  }
 
-	.page-section {
-		padding: 3rem 0px;
-	}
+  .page-section {
+    padding: 3rem 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    
-	.video, .img-recruit {
-		display: none;	
-	}
+  .video,
+  .img-recruit {
+    display: none;
+  }
 
-	.page-section {
-		padding: 2rem 0px;
-	}
+  .page-section {
+    padding: 2rem 0px;
+  }
 
-	h1#header-title{
-		font-size: 70px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+  h1#header-title {
+    font-size: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-	.ytp-cued-thumbnail-overlay-image {
-		padding-top: 30px;
-		margin-top: 30px;
-	}
+  .ytp-cued-thumbnail-overlay-image {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
 
-	section#organize{
-		margin: 0px 20px 0px 20px;
-	}
+  section#organize {
+    margin: 0px 20px 0px 20px;
+  }
 
-	section#sponsor{
-		margin: 0px 20px 0px 20px;
-	}
-
+  section#sponsor {
+    margin: 0px 20px 0px 20px;
+  }
 }
