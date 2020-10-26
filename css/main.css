@@ -293,11 +293,11 @@ header.masthead {
 }
 
 /*FAQ*/
-#faq h2 {
-  margin-top: 30px;
+/* #faq h2 {
+
   font-size: 2.5rem;
   font-weight: 600;
-}
+} */
 
 #faq,
 .card-header {
