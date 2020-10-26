@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
+    "\\img",
     "\\js",
+    "\\scss",
     "\\vendor"
   ],
-  "SelectedNode": "\\js",
+  "SelectedNode": "\\img\\newphotobooth",
   "PreviewInSolutionExplorer": false
 }
