@@ -342,6 +342,10 @@ header.masthead {
   border-radius: 15px;
 }
 
+#title-all{
+  align-items: center;
+}
+
 /*FOOTER*/
 footer {
   padding-top: 30px;
