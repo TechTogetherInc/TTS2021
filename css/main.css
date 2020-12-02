@@ -17,7 +17,6 @@ body {
 #btnRegister {
   background-color: #181d46;
   color:white;
-  border:none;
   margin-top:10%;
   
 }
@@ -218,7 +217,7 @@ header.masthead {
 #mc_embed_signup input.button {
   width: 100% !important;
   background-color: #fda094;
-  color: black;
+  color: white;
   border-radius: 20px;
   height: 40px;
 }
