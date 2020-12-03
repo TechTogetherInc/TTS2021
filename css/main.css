@@ -17,6 +17,8 @@ body {
 #btnRegister {
   background-color: #181d46;
   color:white;
+  font-size: 19px;
+  font-weight: 600;
   margin-top:10%;
   
 }
