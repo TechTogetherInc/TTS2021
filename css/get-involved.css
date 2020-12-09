@@ -78,7 +78,7 @@
   top: 0;
   bottom: 0;
   z-index: 0;
-  height:15%;
+  height:27%;
 }
 
 .section-img {
@@ -251,7 +251,7 @@
     font-size: 2.5rem;
   }
   .vertical-line{
-      height:31%;
+      height:37%;
   }
 }
 
