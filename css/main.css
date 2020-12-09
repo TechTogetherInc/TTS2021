@@ -652,8 +652,8 @@ tr > .event {
         font-size:10px;
     }
    .table{
-       border-top:none;
-       border-bottom:none;
+       border-top-style:none;
+       border-bottom-style:none;
 
    }
 
