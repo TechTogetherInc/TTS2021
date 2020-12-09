@@ -630,5 +630,31 @@ footer p {
 
 tr > .event {
   width: 65%;
+  
 }
 
+@media only screen and (max-width: 400px) {
+    .s-card {
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 40%;
+        background-color: #fff;
+        background-clip: border-box;
+        border: none;
+        border-radius: 0.25rem;
+        
+    }
+
+    tr > .event {
+        width: 65%;
+        font-size:small;
+    }
+   .table{
+       border-top:none;
+       border-bottom:none;
+
+   }
+
+}
