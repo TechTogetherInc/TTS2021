@@ -78,12 +78,14 @@
   top: 0;
   bottom: 0;
   z-index: 0;
+  height:15%;
 }
 
 .section-img {
-  width: 100%;
-  z-index: 3;
-  position: relative;
+    width: 100%;
+    z-index: 3;
+    position: relative;
+    
 }
 
 .horizontal-line {
@@ -247,6 +249,9 @@
 
   .get-inv-bg h1 {
     font-size: 2.5rem;
+  }
+  .vertical-line{
+      height:31%;
   }
 }
 
