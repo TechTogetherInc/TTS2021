@@ -589,6 +589,10 @@ footer p {
     justify-content: center;
     margin-bottom: 3%;
   }
+    #first-card, #second-card, #third-card, #fourth-card {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
 
   .ml-form-align-center {
     display: block;
@@ -607,6 +611,7 @@ footer p {
     }*/
   }
 }
+
 
 #first-card, #third-card {
     border-left: 10px solid #181d46;
@@ -644,17 +649,18 @@ tr > .event {
         background-clip: border-box;
         border: none;
         border-radius: 0.25rem;
-        
+        border-top-style: none;
+        border-bottom-style: none;
     }
 
     tr > .event {
         width: 65%;
         font-size:10px;
     }
-   .table{
-       border-top-style:none;
-       border-bottom-style:none;
-
-   }
+    #first-card, #second-card, #third-card, #fourth-card {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+   
 
 }
