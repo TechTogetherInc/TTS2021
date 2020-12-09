@@ -3,10 +3,12 @@
     "",
     "\\css",
     "\\img",
+    "\\img\\bg",
+    "\\img\\sponsors",
     "\\js",
     "\\scss",
     "\\vendor"
   ],
-  "SelectedNode": "\\css\\mailerlite.css",
+  "SelectedNode": "\\img\\bg\\Rectangle 30.png",
   "PreviewInSolutionExplorer": false
 }

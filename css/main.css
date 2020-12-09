@@ -298,12 +298,9 @@ header.masthead {
   padding-bottom: 5px;
 }
 
-/*FAQ*/
-/* #faq h2 {
-
-  font-size: 2.5rem;
-  font-weight: 600;
-} */
+#schedule {
+    background-color: #fc7361;
+}
 
 #faq,
 .card-header {
@@ -536,6 +533,7 @@ footer p {
     background-image: none;
     height: 100%;
   }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -607,4 +605,30 @@ footer p {
         display: block;
         width: 100%;
     }*/
+  }
 }
+
+#first-card, #third-card {
+    border-left: 10px solid #181d46;
+} 
+
+#second-card, #fourth-card {
+  border-left: 10px solid #5568ab;
+}
+
+.s-card {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+tr > .event {
+  width: 65%;
+}
+
