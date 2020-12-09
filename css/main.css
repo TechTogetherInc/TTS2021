@@ -607,4 +607,32 @@ footer p {
         display: block;
         width: 100%;
     }*/
+  }
+}
+
+#first-card, #third-card {
+  border-left: 10px solid #ffc04a;
+} 
+
+#second-card, #fourth-card {
+  border-left: 10px solid #5568ab;
+}
+
+.s-card {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.table td, .table th {
+  text-align: left;
+  padding: 100px;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
 }
