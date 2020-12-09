@@ -649,7 +649,7 @@ tr > .event {
 
     tr > .event {
         width: 65%;
-        font-size:small;
+        font-size:smaller;
     }
    .table{
        border-top:none;
