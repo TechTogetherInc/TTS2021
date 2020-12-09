@@ -630,9 +630,6 @@ footer p {
   border-radius: 0.25rem;
 }
 
-.table td, .table th {
-  text-align: left;
-  padding: 100px;
-  vertical-align: top;
-  border-top: 1px solid #dee2e6;
+tr > .event {
+  width: 65%;
 }
