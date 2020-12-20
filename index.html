@@ -256,7 +256,7 @@
 	    <br><br><h3 style="text-align:center; color:white;"><b>Tentative Schedule</b></h3><br>
             <p style="text-align:center; color:white;">Please note that all times are in Pacific Time (PDT).</p>
 	    <div class="schedule-tabs">
-            <div class="tabs">
+            <div id="tabs">
 		<button class="tab active" value="s-card1" onclick="tabchange(this);"><b>Jan 22</b></button>
 		<button class="tab" value="s-card2" onclick="tabchange(this);"><b>Jan 23</b></button>
 		<button class="tab" value="s-card3" onclick="tabchange(this);"><b>Jan 24</b></button>
@@ -1313,22 +1313,27 @@
         }
 
 	function tabchange(buttonObject) {
+	    var tabs = document.getElementById("tabs");
+	    var btns = tabs.getElementsByClassName("tab");
+
+	    for (var a = 0; a < btns.length; a++) {
+		btns[a].addEventListener("click", function() {
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+		});
+	    }
+
 	    var val = buttonObject.value;
-	    //console.log(val);
-	    var target = document.getElementsByClassName(val);
-	    console.log(target);
+	    var target = document.getElementsByClassName(val); //8
 	
 	    for (var i = 0; i < target.length; i++) {
-		//console.log(target[i]);
+		console.log(target[i]); //8
 	        if(target[i]) {
 		    var siblings = target[i].parentNode.getElementsByTagName("DIV");
-		    //console.log(siblings);
 		    for (var j = 1; j < siblings.length; j++){
-			//console.log(siblings[j]);
-			//console.log(target[i]);
+			console.log(siblings[j]);
 			if (siblings[j] != target[i]) {
-			    //console.log(target[i]);
-			    //console.log(siblings[j]);
 		            siblings[j].style.display = "none";
 			}
 			else {
