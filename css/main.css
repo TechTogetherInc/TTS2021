@@ -707,23 +707,23 @@ tr > .event {
     transition: 0.3s;
 }
 
-.tabs {
+#tabs {
     margin-left: 9.5%;
 }
 
-.tabs button {
+#tabs button {
     color: #ffffff;
     border-radius: 2px;
     vertical-align: middle;
     padding: 10px;
 }
 
-.tabs button.active {
+#tabs button.active {
     background-color: #123b6b;
     color: #ffffff;
 }
 
-.tabs button:hover {
+#tabs button:hover {
     background-color: #ffffff;
     text-decoration: none;
 }
