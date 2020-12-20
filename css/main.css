@@ -608,27 +608,122 @@ footer p {
   }
 }
 
-#first-card, #third-card {
+
+#card1, #card3, #card5, #card7, #card9, #card11, #card13, #card15, #card17, 
+#card19, #card21, #card23, #card25, #card27, #card29, #card31, #card33, #card35 {
     border-left: 10px solid #181d46;
 } 
 
-#second-card, #fourth-card {
-  border-left: 10px solid #5568ab;
+#card2, #card4, #card6, #card8, #card10, #card12, #card14, #card16, #card18,
+#card20, #card22, #card24, #card26, #card28, #card30, #card32, #card34 {
+    border-left: 10px solid #5568ab;
 }
 
-.s-card {
+.s-card1 {
   margin: auto;
   position: relative;
-  display: flex;
   flex-direction: column;
-  max-width: 40%;
+  max-width: 65%;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  display: block;
+}
+
+.s-card2 {
+  margin: auto;
+  position: relative;
+  flex-direction: column;
+  max-width: 65%;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  display: none;
+}
+
+.s-card3 {
+  margin: auto;
+  position: relative;
+  flex-direction: column;
+  max-width: 65%;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  display: none;
 }
 
 tr > .event {
   width: 65%;
+  
 }
 
+@media only screen and (max-width: 400px) {
+    .s-card {
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 65%;
+        background-color: #fff;
+        background-clip: border-box;
+        border: none;
+        border-radius: 0.25rem;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    tr > .event {
+        width: 65%;
+        font-size:10px;
+    }
+    #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, 
+    #card10, #card11, #card12, #card13, #card14, #card15, #card16, #card17,
+    #card18, #card19, #card20, #card21, #card22, #card23, #card24, #card25,
+    #card26, #card27, #card28, #card29, #card30, #card31, #card32, #card33,
+    #card34, #card35 {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+}
+
+.schedule-tabs {
+    max-width: 900px;
+    height: fit-content;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab, .active {
+    width: 30%;
+    float: left;
+    text-align: center;
+    height: 50px;
+    background-color: #4160a3;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tabs {
+    margin-left: 9.5%;
+}
+
+.tabs button {
+    color: #ffffff;
+    border-radius: 2px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.tabs button.active {
+    background-color: #123b6b;
+    color: #ffffff;
+}
+
+.tabs button:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+}
