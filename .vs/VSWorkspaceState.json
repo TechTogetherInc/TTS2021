@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\img",
+    "\\img\\bg",
+    "\\img\\sponsors",
+    "\\js",
+    "\\scss",
     "\\vendor"
   ],
-  "SelectedNode": "\\css\\main.css",
+  "SelectedNode": "\\img\\bg\\Rectangle 30.png",
   "PreviewInSolutionExplorer": false
 }
