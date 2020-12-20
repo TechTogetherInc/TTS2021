@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,6 +28,7 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet"
           href="https://static.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=11680">
+    <script src="schedule.js"></script>
 </head>
 
 <body id="page-top">
@@ -252,49 +253,367 @@
        <img class="section-img mb-5" src="img/bg/Rectangle 22.png" alt="">
         <!-- Schedule Section -->
         <section id="schedule">
-            <br><br><h3 style="text-align:center; color:white;"><b>Tentative Schedule</b></h3><br>
+	    <br><br><h3 style="text-align:center; color:white;"><b>Tentative Schedule</b></h3><br>
             <p style="text-align:center; color:white;">Please note that all times are in Pacific Time (PDT).</p>
-            <div class="s-card" id="first-card">
+	    <div class="schedule-tabs">
+            <div class="tabs">
+		<button class="tab active" value="s-card1" onclick="tabchange(this);"><b>Jan 22</b></button>
+		<button class="tab" value="s-card2" onclick="tabchange(this);"><b>Jan 23</b></button>
+		<button class="tab" value="s-card3" onclick="tabchange(this);"><b>Jan 24</b></button>
+	    </div><br><br><br>
+	    <div class="s-card1" id="card1">
                 <table class="table">
                     <tbody>
                         <tr>
                             <th scope="row">4:00 - 5:00 PM<br></th>
-                            <td colspan="2" class="event"><span>Hackathon Tips for Beginners</span><br><span>Day 1</span></td>
+                            <td colspan="2" class="event"><span>Hackathon Tips for Beginners</span><br><span><b>Day 1</b></span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="s-card" id="second-card">
+            <div class="s-card1" id="card2">
                 <table class="table">
                     <tbody>
                         <tr>
                             <th scope="row">5:00 - 6:00 PM<br></th>
-                            <td colspan="2" class="event"><span>Opening Ceremony: Hacking Begins</span><br><span>Day 1</span></td>
+                            <td colspan="2" class="event"><span>Opening Ceremony: Hacking Begins</span><br><span><b>Day 1</b></span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="s-card" id="third-card">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <th scope="row">3:30 - 4:00 PM<br></th>
-                            <td colspan="2" class="event"><span>Project Submissions Due</span><br><span>Day 3</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="s-card" id="fourth-card">
+            <div class="s-card1" id="card3">
                 <table class="table">
                     <tbody>
                         <tr>
                             <th scope="row">6:00 - 7:00 PM<br></th>
-                            <td colspan="2" class="event"><span>Closing Ceremony</span><br><span>Day 3</span></td>
+                            <td colspan="2" class="event"><span>Team Formation Activities</span><br><span><b>Day 1</b></span></td>
                         </tr>
                     </tbody>
                 </table>
-            </div><br><br><br>
-            </section>
+            </div>
+            <div class="s-card1" id="card4">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">6:00 - 7:00 PM<br></th>
+                            <td colspan="2" class="event"><span>echoAR Workshop</span><br><span><b>Day 1</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card1" id="card5">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">7:00 - 8:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to GitHub Workshop</span><br><span><b>Day 1</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card1" id="card6">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">8:00 - 9:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to Web Development w/ JavaScript Workshop</span><br><span><b>Day 1</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card1" id="card7">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">9:00 - 10:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to React.js</span><br><span><b>Day 1</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card1" id="card8">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">10:00 - 11:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Team Formation Activities</span><br><span><b>Day 1</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card9">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">9:00 - 10:00 AM<br></th>
+                            <td colspan="2" class="event"><span>Opening Ceremony</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card10">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">10:00 - 10:30 AM<br></th>
+                            <td colspan="2" class="event"><span>Team Formation Activities</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card11">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">11:00 - 12:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to Python</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card12">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">12:00 - 1:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Using APIs</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card13">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:00 - 1:30 PM<br></th>
+                            <td colspan="2" class="event"><span>Team Formation Activities</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card14">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:30 - 2:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Keynote Speaker</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card15">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:00 - 2:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to iOS App Dev</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card16">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">2:00 - 3:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Fireside Chat with Brenda</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card17">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">3:00 - 4:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Women in Tech Panel</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card18">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">4:00 - 5:00 PM<br></th>
+                            <td colspan="2" class="event"><span>How to Score Internships for High School</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card19">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">5:00 - 6:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Team Formation Activities</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card20">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">5:00 - 6:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Resume and Interview Prep Workshop</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card21">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">6:00 - 7:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Networking like a Boss</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card22">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">7:00 - 8:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Build a Project with AI/Machine Learning</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card23">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">8:00 - 9:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to UX/UI Workshop</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card2" id="card24">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">9:00 - 10:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to Game Development</span><br><span><b>Day 2</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card25">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">9:00 - 10:00 AM<br></th>
+                            <td colspan="2" class="event"><span>Nonprofit/Entrepreneurship Panel</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card26">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">9:30 - 10:00 AM<br></th>
+                            <td colspan="2" class="event"><span>How to Fund your Idea - Pitching + Selling your Idea</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card27">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">11:00 - 12:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intro to Cloud Computing</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card28">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">12:00 - 1:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Intersection of Art and Tech Panel</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card29">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:00 - 1:30 PM<br></th>
+                            <td colspan="2" class="event"><span>Keynote Speaker</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card30">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:30 - 2:30 PM<br></th>
+                            <td colspan="2" class="event"><span>Cybersecurity Workshop</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card31">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1:30 - 2:30 PM<br></th>
+                            <td colspan="2" class="event"><span>Devpost Workshop</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card32">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">2:30 - 3:30 PM<br></th>
+                            <td colspan="2" class="event"><span>Project Submissions Due</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card33">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">3:30 - 4:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Hackathon Organizer's Office Hours</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card34">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">4:00 - 6:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Judging Begins</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <div class="s-card3" id="card35">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">6:00 - 7:00 PM<br></th>
+                            <td colspan="2" class="event"><span>Closing Ceremony Begins</span><br><span><b>Day 3</b></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	    <br><br><br>
+	    </div>
+        </section>
 
             <!-- Sponsorship Section -->
             <div class="container" id="sponsor">
@@ -323,6 +642,18 @@
                                     <a href="https://www.sap.com/index.html">
                                         <img class="mx-4 mt-3" style="height: 3rem"
                                              src="img/sponsors/SAP_IntExpProg_stac2_R_pos_gldblk.png">
+                                    </a>
+                                    <a href="https://www.bu.edu/">
+                                        <img class="mx-4 mt-3" style="height: 3rem"
+                                             src="img/sponsors/BU_logo.jpg">
+                                    </a>
+                                    <a href="https://www.essteem.com/?gclid=CjwKCAiAq8f-BRBtEiwAGr3DgS7GDBbkN3nxHmrLlvae2XROiqjaccS2DMm8lHKGIW3QGHkXbS3gEhoCd6IQAvD_BwE">
+                                        <img class="mx-4 mt-3" style="height: 3rem"
+                                             src="img/sponsors/essteem.png">
+                                    </a>
+                                    <a href="http://www.bu.edu/spark/">
+                                        <img style="height: 3rem" class="mx-4 mt-3"
+                                             src="img/sponsors/spark-logo.png">
                                     </a>
 
                                     <a href="https://www.wolfram.com/?source=nav">
@@ -980,6 +1311,33 @@
                 }
             });
         }
+
+	function tabchange(buttonObject) {
+	    var val = buttonObject.value;
+	    //console.log(val);
+	    var target = document.getElementsByClassName(val);
+	    console.log(target);
+	
+	    for (var i = 0; i < target.length; i++) {
+		//console.log(target[i]);
+	        if(target[i]) {
+		    var siblings = target[i].parentNode.getElementsByTagName("DIV");
+		    //console.log(siblings);
+		    for (var j = 1; j < siblings.length; j++){
+			//console.log(siblings[j]);
+			//console.log(target[i]);
+			if (siblings[j] != target[i]) {
+			    //console.log(target[i]);
+			    //console.log(siblings[j]);
+		            siblings[j].style.display = "none";
+			}
+			else {
+			    siblings[j].style.display = "block";
+			}
+		    }
+	        }
+	    }
+	}
     </script>
 </body>
 
