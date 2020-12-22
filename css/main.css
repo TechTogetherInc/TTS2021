@@ -589,6 +589,10 @@ footer p {
     justify-content: center;
     margin-bottom: 3%;
   }
+    #first-card, #second-card, #third-card, #fourth-card {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
 
   .ml-form-align-center {
     display: block;
@@ -607,6 +611,12 @@ footer p {
     }*/
   }
 }
+
+
+
+#first-card, #third-card {
+    border-left: 10px solid #181d46;
+} 
 
 
 
@@ -674,7 +684,9 @@ tr > .event {
         position: relative;
         display: flex;
         flex-direction: column;
+
         max-width: 65%;
+
         background-color: #fff;
         background-clip: border-box;
         border: none;
@@ -687,6 +699,7 @@ tr > .event {
         width: 65%;
         font-size:10px;
     }
+
     #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, 
     #card10, #card11, #card12, #card13, #card14, #card15, #card16, #card17,
     #card18, #card19, #card20, #card21, #card22, #card23, #card24, #card25,
@@ -738,3 +751,11 @@ tr > .event {
     text-decoration: none;
     color: #123b6b;
 }
+
+    #first-card, #second-card, #third-card, #fourth-card {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+   
+
+
