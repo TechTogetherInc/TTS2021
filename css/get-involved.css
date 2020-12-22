@@ -251,8 +251,11 @@
   .get-inv-bg h1 {
     font-size: 2.5rem;
   }
- 
-    
+
+  .vertical-line{
+      height:25%;
+  }
+
 }
 
 @media (min-width: 960px) {
