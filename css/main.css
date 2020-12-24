@@ -448,6 +448,9 @@ footer p {
         z-index: 0;
         transform: rotateY(-180deg);
     }
+    .back{
+        padding:8px;
+    }
 
 .card-container:hover .card-flip {
     transform: rotateY(180deg);
