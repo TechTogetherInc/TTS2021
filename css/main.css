@@ -449,7 +449,7 @@ footer p {
         transform: rotateY(-180deg);
     }
     .back{
-        padding:8px;
+        padding:12px;
     }
 
 .card-container:hover .card-flip {
