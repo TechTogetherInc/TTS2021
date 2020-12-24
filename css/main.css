@@ -450,6 +450,9 @@ footer p {
 .card-container:hover .card-flip {
     transform: rotateY(180deg);
 }
+.back{
+    padding:6px;
+}
 
 /*FAQ 2*/
 
