@@ -55,7 +55,14 @@
     }
     });
 
-    
+    //carousel smooth scrolling
+    $('.carousel').on('slide.bs.carousel', function (event) {
+        // var height = $(event.relatedTarget).height();
+        var $innerCarousel = $(event.target).find('.carousel-inner');
+
+        // $innerCarousel.animate({
+        //   height: height
+        // });
+    });
 
 })(jQuery); // End of use strict
-/
