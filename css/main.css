@@ -489,6 +489,7 @@ footer p {
 
         .card-flip div {
             backface-visibility: hidden;
+            -webkit-backface-visibility: hidden; /* Safari */
             transform-style: preserve-3d;
             height: 100%;
             width: 100%;
