@@ -424,9 +424,11 @@ footer p {
     width: 100%;
     transform-style: preserve-3d;
     height: auto;
-    transition: all 0.5s ease-out;
+    /*transition: all 0.5s ease-out;*/
     background: white;
     border: none;
+    transition: transform 1s;
+    
 }
 
     .card-flip div {
@@ -440,14 +442,14 @@ footer p {
     .card-flip .front {
         position: relative;
         z-index: 1;
-        justify-content:center;
-        backface-visibility:hidden;
+        justify-content: center;
+        backface-visibility: hidden;
     }
 
     .card-flip .back {
         position: relative;
         z-index: 0;
-        transform: rotateY(-180deg);
+        transform: rotateY(180deg);
         padding: 5%;
         backface-visibility: hidden;
     }
@@ -457,11 +459,12 @@ footer p {
 
 .card-container:hover .card-flip {
     transform: rotateY(180deg);
+   
 }
-
-
+.card card-flip .is-flipped {
+    transform: rotateY(180deg);
+}
 /*FAQ 2*/
-
 /*
 #faqs .section-name{
 	border-top: 4px solid #fff;
@@ -530,10 +533,8 @@ footer p {
 	
 }
 */
-
 @media only screen and (max-width: 1000px) {
-  .video,
-  .img-recruit {
+    .video, .img-recruit {
     display: none;
   }
 
