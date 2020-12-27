@@ -473,6 +473,19 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
+    .card-block .btn-outline-primary {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+
     .card-container {
         perspective: 700px;
     }
@@ -480,17 +493,16 @@ footer p {
     .card-flip {
         position: relative;
         width: 100%;
-        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
         height: auto;
-        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
         background: white;
         border: none;
     }
 
         .card-flip div {
-            /*backface-visibility: hidden;
-            -webkit-backface-visibility: hidden; /* Safari */
-            transform-style: preserve-3d;
+            backface-visibility: hidden;
+            -webkit-transform-style: preserve-3d;
             height: 100%;
             width: 100%;
             border: none;
@@ -501,15 +513,16 @@ footer p {
             z-index: 1;
         }
 
-        /*.card-flip .back {
+        .card-flip .back {
             position: relative;
             z-index: 0;
-            transform: none;
+            -webkit-transform: none;
             padding: 10px;
-        }*/
+           -webkit-transform: rotateY(-180deg);
+        }
 
     .card-container:hover .card-flip {
-        transform: none;
+        -webkit-transform: none;
     }
 
 
