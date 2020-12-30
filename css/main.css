@@ -400,7 +400,10 @@ footer p {
   width: 100%;
 }
 /* CHALLENGE THEME */
-
+.challenge-text1{
+    position:relative;
+   
+}
 
 .card-block .btn-outline-primary {
     width: 100%;
