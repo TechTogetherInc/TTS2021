@@ -400,10 +400,7 @@ footer p {
   width: 100%;
 }
 /* CHALLENGE THEME */
-.challenge-text1{
-    position:relative;
-   
-}
+
 
 .card-block .btn-outline-primary {
     width: 100%;
@@ -654,19 +651,20 @@ footer p {
 }
 
 
-
-#card3, #card8, #card10, #card13, #card19 {
+/*activity*/
+#card3, #card7, #card8, #card9, #card10, #card13, #card14 {
     border-left: 10px solid #40bb53;
 }
 
 /*workshop*/
-#card4, #card6, #card5, #card7, #card11, #card12, #card14, #card15, #card16, #card17, #card18,
-#card20, #card21, #card22, #card23, #card24, #card25, #card26, #card27, #card28, #card29, #card30, #card31 {
+#card4, #card5, #card6, #card10, #card11, #card12, #card13, #card15, #card16, #card17, #card18, #card19,
+#card20, #card21, #card22, #card23, #card24, #card25, #card26, #card27, #card28, #card29, #card30, #card31,
+#card32, #card33, #card34 {
     border-left: 10px solid #5568ab;
 }
 
 /*universal*/
-#card1, #card2, #card9, #card32, #card33, #card34, #card35 {
+#card1, #card2, #card35, #card36, #card37, #card38 {
     border-left: 10px solid #ff0000;
 }
 
@@ -736,7 +734,7 @@ tr > .event {
     #card10, #card11, #card12, #card13, #card14, #card15, #card16, #card17,
     #card18, #card19, #card20, #card21, #card22, #card23, #card24, #card25,
     #card26, #card27, #card28, #card29, #card30, #card31, #card32, #card33,
-    #card34, #card35 {
+    #card34, #card35, #card36, #card37, #card38 {
         border-top-style: none;
         border-bottom-style: none;
     }
@@ -783,4 +781,3 @@ tr > .event {
             text-decoration: none;
             color: #123b6b;
         }
-
