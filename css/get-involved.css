@@ -12,11 +12,6 @@
   -webkit-box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 26%);
   -moz-box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 26%);
 }
-#btns {
-    padding: 0.1rem 1rem;
-    width: 50%;
-    background-color: #4160a3;
-}
 
 .btn-group button {
     border: none;
@@ -251,6 +246,7 @@
     flex: 1 0 50%;
     padding: 1rem;
   }
+    
 
   .contentbox .button-container {
     bottom: -2rem;
@@ -275,6 +271,7 @@
     flex: 1;
     padding: 3rem 1rem;
   }
+    
   .get-inv-bg h1 {
     font-size: 2rem;
   }
@@ -287,6 +284,7 @@
     margin: 1rem 5rem;
     min-width: 300px;
   }
+    
 
   .contentbox .button-container {
     bottom: -3.5rem;
@@ -309,6 +307,7 @@
         padding: 5rem 1rem;
     }
 
+   
     .row .button {
         flex: 1 0;
         padding: 1.6rem;
@@ -335,4 +334,11 @@
             height: 28%;
         }
     }
+@media only screen and (max-width: 600px) {
+    .btn-group{
+        float:none;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
             

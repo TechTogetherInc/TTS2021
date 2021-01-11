@@ -574,11 +574,11 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-
-  .video,
-  .img-recruit {
-    display: none;
-  }
+    
+    .video,
+    .img-recruit {
+        display: none;
+    }
 
   .page-section {
     padding: 2rem 0px;
