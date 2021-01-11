@@ -12,6 +12,20 @@
   -webkit-box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 26%);
   -moz-box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 26%);
 }
+button.btns {
+    font-family: inherit;
+    color: #ffffff;
+    background-color: #4160a3;
+    border-radius: 10px;
+    padding: 13px 50px;
+    margin: 8px 0px;
+    border: none;
+    padding: 0.8rem 1rem;
+    box-shadow: 1rem;
+    max-width: 225px;
+    z-index: 2;
+    font-weight: 600;
+}
 
 .button a {
   color: white;
