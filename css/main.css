@@ -266,7 +266,7 @@ header.masthead {
 }
 
 .collapsible {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   color: black;
   cursor: pointer;
   padding: 10px;
@@ -276,18 +276,28 @@ header.masthead {
   outline: none;
   font-size: 18px;
 }
-.collapsible:hover {
+.active, .collapsible:hover {
   background-color: #f1f1f1;
+}	  
+.content {
+  overflow: hidden;
+  padding: 0 18px;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
 }
-.collapsible:after {
-  content: "\002B";
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-.collapsible:clicked {
-  content: "\2212";
+.btn-sc {
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .sponsor {
@@ -333,6 +343,13 @@ header.masthead {
 .card-body {
   color: white;
   text-align: left;
+}
+
+.card-body1 {
+  color: black;
+  text-align: left;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
 
 #faq button {
