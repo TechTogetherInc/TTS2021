@@ -266,7 +266,7 @@ header.masthead {
 }
 
 .collapsible {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   color: black;
   cursor: pointer;
   padding: 10px;
@@ -276,19 +276,9 @@ header.masthead {
   outline: none;
   font-size: 18px;
 }
-.collapsible:hover {
+.active, .collapsible:hover {
   background-color: #f1f1f1;
-}
-.collapsible:after {
-  content: "\002B";
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-.collapsible:clicked {
-  content: "\2212";
-}
+}	
 
 .sponsor {
   font-size: 20px;
