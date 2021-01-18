@@ -359,14 +359,14 @@
                     <button class="tab" value="s-card3" onclick="tabchange(this);"><b>Jan 24</b></button>
                 </div><br><br><br>
                 <div class="s-card1" id="card1">
-                    <table class="table">
+		  <table class="table">
                         <tbody>
                             <tr>
                                 <th scope="row">4:00 PM - 5:00 PM<br><span style="color:#ff0000;">Universal</span></th>
                                 <td colspan="2" class="event"><span>Hackathon Tips for Beginners</span><br></td>
                             </tr>
                         </tbody>
-                    </table>
+                  </table>
                 </div>
                 <div class="s-card1" id="card2">
                     <table class="table">
@@ -556,7 +556,7 @@
                     <table class="table">
                         <tbody>
                             <tr>
-                                <th scope="row">1:00 PM - 2:00 PM<br><span style="color:#5568ab;">Workshop</span></th>
+                                <th scope="row">2:00 PM - 3:00 PM<br><span style="color:#5568ab;">Workshop</span></th>
                                 <td colspan="2" class="event"><span>Intro to iOS App Development w/ Swift</span><br></td>
                             </tr>
                         </tbody>
@@ -577,8 +577,11 @@
                         <tbody>
                             <tr>
                                 <th scope="row">3:00 PM - 4:00 PM<br><span style="color:#5568ab;">Workshop</span></th>
-                                <td colspan="2" class="event"><span>Navigating a Career in Tech</span><br></td>
-                            </tr>
+                                <td colspan="2" class="event"><span>Navigating a Career in Tech<br><br>
+				Panelists: Jill Finlayson (Director, Women in Tech Initiative, University of California), 
+				Syeda Kauser Inamdar (Software Engineer @ LinkedIn), Dasani Madipalli (Program Manager @ Microsoft), 
+				Alka Patel (Head of AI Ethics Policy at Department of Defense, Joint AI Center)</span></td>
+			    </tr>
                         </tbody>
                     </table>
                 </div>
@@ -588,7 +591,11 @@
                             <tr>
                                 <th scope="row">4:00 PM - 5:00 PM<br><span style="color:#5568ab;">Workshop</span></th>
                                 <td colspan="2" class="event">
-                                    <span>How to Score Internships for High School and College Students</span><br>
+                                    <span>How to Score Internships for High School and College Students<br><br>Panelists: Vivian Phung 
+				    (Incoming Software Engineer at Facebook/Previously SWE Intern @ Facebook, Apple), Areeta Wong 
+				    (Incoming SWE Intern at Datadog/Prev @ Google & Amazon), Iris Guo (Incoming PM @ Microsoft/Product 
+			  	    @ BlackBerry Labs, OpenMeal), Sneha Mulki (Incoming Product Designer at Lyft/Prev Product Design 
+				    Intern @ Intuit & Lyft)</span>
                                 </td>
                             </tr>
                         </tbody>
@@ -678,7 +685,8 @@
                             <tr>
                                 <th scope="row">8:00 AM - 9:00 AM<br><span style="color:#5568ab;">Workshop</span></th>
                                 <td colspan="2" class="event">
-                                    <span>Fireside Chat with Wonsulting</span><br>
+                                    <span>Landing Your Dream Job: How We've Helped Thousands of Underdogs Land Their Dream 
+				    Fireside Chat Q&A with Wonsulting</span><br>
                                 </td>
                             </tr>
                         </tbody>
@@ -709,12 +717,15 @@
                     </table>
                 </div>
                 <div class="s-card3" id="card34">
-                    <table class="table">
+		    <table class="table">
                         <tbody>
                             <tr>
                                 <th scope="row">9:00 AM - 10:00 AM<br><span style="color:#5568ab;">Workshop</span></th>
                                 <td colspan="2" class="event">
-                                    <span>Entrepreneurship 101</span><br>
+                                    <span>Entrepreneurship 101<br><br>Panelists: Paola Hernandez (Founder of LaSTEMgirl Shop), 
+				    Anjali Dhaliwal (Founder of Youth Helping Youth), Archika Dogra (Founder & Executive Director 
+				    of Innoverge), Belicia Tan (Program Manager @Ladder, Founder of Girls Who Consult), Amanat 
+				    Anand (Founder of SoaPen)</span>
                                 </td>
                             </tr>
                         </tbody>
@@ -747,7 +758,10 @@
                         <tbody>
                             <tr>
                                 <th scope="row">12:00 PM - 1:00 PM<br><span style="color:#5568ab;">Workshop</span></th>
-                                <td colspan="2" class="event"><span>Designing in Tech 101</span><br></td>
+                                <td colspan="2" class="event"><span>Designing in Tech 101<br><br>Panelists: Christopher 
+				Grose (UX Design Manager at Amazon), Sarah Chu (Product Designer at Zillow), Etienne Fang 
+				(Human-centered research and strategy leader | Principal researcher at Amazon | Founder of 
+				Redefining Having It All), Joylyn Yang (Product Designer at Intuit)</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -923,8 +937,9 @@
 
                     <div class="row mt-lg-5 button-container">
                         <button class="button">
-              			<a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1nbiS0H-Hkyncx70_PRtjvK4KSsTlVYddtV0SL6yddvI/edit?usp=sharing">Learn About Our Sponsors</a>
-           		</button>
+                            <a target="_blank" rel="noreferrer"
+                               href="https://techtogether.typeform.com/to/GA8Oeo4D">Become a Sponsor</a>
+                        </button>
                     </div>
                 </div>
 
@@ -1602,24 +1617,23 @@
             $(absoluteSide).css("position", "absolute");
         });
 
+	
+	var coll = document.getElementsByClassName("btn-sc");
+	var i;
 
+	for (i = 0; i < coll.length; i++) {
+  	    coll[i].addEventListener("click", function() {
+    		this.classList.toggle("active");
+    		var content = this.nextElementSibling;
+		console.log(content);
+    		if (content.style.display === "block"){
+      		    content.style.display = "none";
+    		} else {
+      		    content.style.display = "block";
+    		} 
+  	    });
+	}
 
-
-
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
 
         function tabchange(buttonObject) {
             var tabs = document.getElementById("tabs");
