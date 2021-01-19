@@ -565,8 +565,9 @@ footer p {
 
 @media only screen and (max-width: 600px) {
 
-    #btnRegister{
-        margin:0.5%;
+    #btnRegister {
+        margin: 1%;
+        padding: 0.1rem 1rem;
     }
    
    
