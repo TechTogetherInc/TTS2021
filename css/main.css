@@ -564,6 +564,12 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
+
+    #btnRegister{
+        margin:0.5%;
+    }
+   
+   
     
     .video,
     .img-recruit {
@@ -573,6 +579,10 @@ footer p {
   .page-section {
     padding: 2rem 0px;
   }
+  .page-section1{
+      max-height:initial;
+  }
+  
   body {
     padding-top: -300px;
   }
