@@ -21,13 +21,6 @@ body {
   font-weight: 600;
   margin-top:3%; 
 }
-#btnProject{
-    background-color: #181d46;
-    color: white;
-    font-size: 19px;
-    font-weight: 600;
-    margin-top: 3%;
-}
 
 
 h1,
@@ -578,12 +571,7 @@ footer p {
         margin-top:5%;
     }
 
-    #btnProject {
-        margin: 1%;
-        padding: 0.1rem 1rem;
-
-    }
-   
+  
     
     .video,
     .img-recruit {
