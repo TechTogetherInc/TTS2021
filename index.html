@@ -1761,7 +1761,7 @@
 
             var val = buttonObject.value;
             var target = document.getElementsByClassName(val);
-            var siblings = target[0].parentNode.getElementsByTagName("DIV");
+            var siblings = target[0].parentNode.parentNode.getElementsByTagName("DIV");
 
             for (var i = 1; i < siblings.length; i++) {
                 for (var j = 0; j < target.length; j++) {
